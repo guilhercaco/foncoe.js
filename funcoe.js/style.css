@@ -3,7 +3,7 @@ body{
     text-align: center;
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(45deg,#800080,#19195c,#ea9dff,#3ef744);
+    background: linear-gradient(45deg,#2d2c31,#1d1d4e,#2ad895,#3ef744);
     color: white;
     display: flex;
     justify-content: center;
@@ -40,4 +40,7 @@ button{
 }
 button.houver{
     background-color: aqua;
+}
+button:active{
+    background-color: #9b4805;
 }
